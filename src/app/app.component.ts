@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'FirstApp';
+
+  name:string="Muhammed Mehti GÜLER";
+  name2:string|number|undefined|null =10;
+  name3="Deneme Name";
+  ngModelDegisken:string="sasas";
+
+  metod(){
+    alert("Çalıştım");
+  }
 }
